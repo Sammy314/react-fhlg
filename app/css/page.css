@@ -1,0 +1,198 @@
+@import "./reset.css";
+@import "~antd/dist/antd.css";
+
+.main {
+	width: 1200px;
+	margin: 0 auto;
+	line-height: 30px;
+}
+.index-head{
+	width: 100%;
+	line-height: 25px;
+	background: linear-gradient(to bottom, #fff, lightgrey); 
+	border-bottom: 2px solid #ccc;
+}
+.header-img {
+	display: block;
+	width: 300px;
+	margin: 10px auto 0 auto;
+}
+.index-header-search {
+	position: absolute;
+	left: 170px;
+	top: 30px;
+	width: 400px;
+	height: 35px;
+}
+.header-menu {
+	line-height: 30px;
+}
+.content {
+	width: 1200px;
+	margin-top: 20px;
+	font-size: 16px;
+
+}
+.content.ant-card-wider-padding .ant-card-body{
+	padding:0;
+}
+
+.ant-card-body {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-content: space-around;
+	/*width: 1022px;*/
+}
+
+
+.btn{
+	margin-top: 35px;
+}
+.index-nav {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #ffc400;
+	padding-left: 30px;
+	font-size: 16px;
+	margin-top: 20px;
+}
+.detail-nav {
+	background: #C7012C;
+}
+.detail-nav >li {
+	color: #fff;
+}
+.index-nav >li {
+	float: left;
+	margin-right: 30px;
+}
+.content-item{
+	line-height: 30px;
+	padding: 0 10px;
+	font-size: 14px;
+	color: #049;
+}
+.content-item img {
+	display: block;
+	width: 250px;
+	height: 250px;
+}
+
+.ant-dropdown-link {
+	color: #000;
+}
+.head-list>a {
+	margin-right: 20px;
+}
+.footer{
+	overflow: hidden;
+}
+.footer>span{
+	display: block;
+	height:50px;
+	margin:20px auto;
+	background:url(../images/foot1.png) no-repeat 0 0;
+	background-size:cover;
+}
+.foot1{
+	width:895px;
+	height:160px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.foot1L{
+	width:245px;
+	height:150px;
+	position:relative;
+	float:left;
+}
+.foot1L>.num{
+	font-size: 16px;
+	color: #999;
+	display: block;
+	
+}
+.foot1L>.num>b{
+	font-size:14px;
+	color:#333361;
+	font-weight:900;
+}
+.foot1L>span:nth-child(1){
+	display: block;
+	padding-top:40px;
+}
+
+.foot1L>.num1{
+	font-size: 12px;
+	color: #999;
+	position: absolute;
+	right:33px;
+	bottom:34px;
+}
+.foot1L>.num1>i{
+	font-size:10px;
+	color:#ff6600;
+	font-weight:900;
+}
+.foot1L>.num2{
+	font-size: 12px;
+	color: #999;
+	position: absolute;
+	right:33px;
+	bottom:8px;
+}
+.foot1L>.num2>i{
+	font-size:10px;
+	color:#ff6600;
+	font-weight:900;
+}
+.foot1R{
+	width:650px;
+	height:150px;
+	float:left;
+}
+.foot1R>li{
+	float:left;
+	border-left:1px solid #ddd;
+	width:130px;
+	height:150px;
+	font-size:12px;
+	color:#000;
+	padding-top:6px;
+	padding-left:15px;
+}
+.foot1R>li>ul{
+	padding-top:9px;
+}
+.foot1R>li>ul>li>a{
+	font-size:10px;
+	color:#999;
+	line-height:20px;
+}
+.foot1R>li>ul>li>a:hover{
+	color:blue;
+}
+.foot2{
+	width:455px;
+	height:84px;
+	margin: 20px 0 30px 120px;
+}
+.foot2>div{
+	height:10px;
+	width:324px;
+	margin-bottom:20px;
+}
+.foot2>div>a{
+	font-size:12px;
+	color:black;
+	line-height:12px;
+}
+
+.foot2>span{
+	font-size:12px;
+	color:#999;
+	line-height:22px;
+	display:block;
+}
